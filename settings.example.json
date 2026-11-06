@@ -1,0 +1,81 @@
+{
+  "data": {
+    "source": "demo",
+    "strategy_profile": "both",
+    "history_minutes": 5000,
+    "mt5_terminal_path": "",
+    "mt5_login": 0,
+    "mt5_password": "",
+    "mt5_server": "",
+    "mt5_server_utc_offset_hours": null
+  },
+  "risk": {
+    "account_currency": "USD",
+    "account_equity": 1000.0,
+    "risk_per_trade_pct": 0.25,
+    "daily_loss_limit_pct": 1.0,
+    "max_trades_per_day": 5,
+    "max_consecutive_losses": 3,
+    "target_reward_risk": 2.0,
+    "min_net_reward_risk": 1.6,
+    "max_spread_to_stop_ratio": 0.2,
+    "max_leverage": 10.0,
+    "stale_bar_seconds": 150,
+    "stale_tick_seconds": 90,
+    "signal_cooldown_minutes": 15
+  },
+  "alerts": {
+    "telegram_enabled": false,
+    "telegram_bot_token": "",
+    "telegram_chat_id": "",
+    "desktop_popup": true,
+    "popup_watch_only": false,
+    "fullscreen_popup": true
+  },
+  "trading": {
+    "allow_real_account": false,
+    "max_open_positions": 2
+  },
+  "instruments": {
+    "EURUSD": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "GBPUSD": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "USDJPY": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "XAUUSD": {
+      "enabled": true,
+      "broker_symbol": ""
+    },
+    "XAGUSD": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "USOIL": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "US500": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "NAS100": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "AAPL": {
+      "enabled": false,
+      "broker_symbol": ""
+    },
+    "MSFT": {
+      "enabled": false,
+      "broker_symbol": ""
+    }
+  }
+}

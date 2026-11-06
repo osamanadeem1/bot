@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Your own data and settings: never upload these
+data/
+settings.json
+*.sqlite3
+*.log
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini

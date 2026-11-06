@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+streamlit>=1.51
+plotly>=5.18
+pytest>=7.4
+# MetaTrader5 (Windows only) is installed separately by setup.bat so that
+# demo and CSV modes still work if it is unavailable for your Python version.
